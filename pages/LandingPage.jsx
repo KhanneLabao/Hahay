@@ -6,6 +6,7 @@ import About from '../components/About';
 import Feature from '../components/Feature';
 import Authors from '../components/Authors';
 import { Button } from '@/components/ui/button';
+import Footer from '../components/Footer';
 
 const LandingPage = () => {
   return (
@@ -16,6 +17,7 @@ const LandingPage = () => {
       <About/>
       <Authors/>
       <Button/>
+      <footer/>
     </>
   );
 }
